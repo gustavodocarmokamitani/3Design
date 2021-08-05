@@ -1,0 +1,19 @@
+.nav-link :nth-child(1) {
+    margin-left: 15%;
+}
+
+.navbar {
+    background-color: unset !important;
+
+    a, .Link-Nav { 
+        color: #000 !important; 
+        font-weight: 500;
+        
+    }
+
+    .navbar-brand {
+        font-weight: 300;
+        font-size: 32px;
+    }
+    
+}

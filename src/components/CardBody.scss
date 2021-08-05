@@ -1,0 +1,65 @@
+.Body-Card {
+    margin-top: 100px;    
+    height: 400px;
+    width: 400px;
+    position: relative;
+
+    .Card-Image {
+        height: 100%;
+    }    
+
+    .Hover-Card {        
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        opacity: 0;
+        color: #fff;
+    }
+
+    .Hover-Card:hover {
+        transition: all 0.5s 0s ease;
+        opacity: 1;        
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(255,255,255,0) 100%);
+     }
+
+     h3, .Card-Content {
+         position: absolute;   
+         font-weight: bold;         
+     }
+
+     h3 {
+         bottom: 50px;
+     }
+
+     .Card-Content {
+         bottom: 5px;
+         
+     }
+
+     .Programa-Card {
+         position: absolute;
+         bottom: -55px;
+         left: 10px;
+         font-size: 14px;
+         color: rgb(82, 82, 82);
+         font-weight: 300;         
+     }
+
+     .Likes-Card {
+         position: absolute;
+         left: 370px;
+         bottom: -55px;
+         font-size: 14px;         
+         font-weight: 300;         
+     }
+
+     .Heart-Card {
+         position: absolute;
+         left: 340px;
+         bottom: -35px;
+     }
+
+}
+
