@@ -37,6 +37,8 @@
 
      h3 {
          bottom: 50px;
+         font-size: 18px;
+         text-align: center;
      }
 
      .Card-Content {
@@ -57,12 +59,12 @@
 }
 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
 
     .Body-Card {
         text-align: center;
-        height: 300px;
-        width: 300px;
+        
+        
     }
 }
 

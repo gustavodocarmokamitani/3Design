@@ -13,7 +13,7 @@ const posts = [
         image: image4,
         title: 'Link 3D WebSite',
         content: 'Link 3D WebSite',
-        program: 'Rhinoceros | ArtCam',
+        program: 'Rhinoceros ArtCam',
         likes: '54',
     },
     {
@@ -21,7 +21,7 @@ const posts = [
         image: image5,
         title: 'Link 3D WebSite',
         content: 'Link 3D WebSite',
-        program: 'Rhinoceros | ArtCam',
+        program: 'Rhinoceros ArtCam',
         likes: '46',
     },
     {
@@ -29,7 +29,7 @@ const posts = [
         image: image6,
         title: 'Link 3D WebSite',
         content: 'Link 3D WebSite',
-        program: 'Rhinoceros | ArtCam',
+        program: 'Rhinoceros ArtCam',
         likes: '52',
     },
     {
@@ -37,7 +37,7 @@ const posts = [
         image: image7,
         title: 'Link 3D WebSite',
         content: 'Link 3D WebSite',
-        program: 'Rhinoceros | ArtCam',
+        program: 'Rhinoceros ArtCam',
         likes: '57',
     },
     {
@@ -45,7 +45,7 @@ const posts = [
         image: image8,
         title: 'Link 3D WebSite',
         content: 'Link 3D WebSite',
-        program: 'Rhinoceros | ArtCam',
+        program: 'Rhinoceros ArtCam',
         likes: '64',
     },
     {
@@ -53,7 +53,7 @@ const posts = [
         image: image9,
         title: 'Link 3D WebSite',
         content: 'Link 3D WebSite',
-        program: 'Rhinoceros | ArtCam',
+        program: 'Rhinoceros ArtCam',
         likes: '62',
     },
     

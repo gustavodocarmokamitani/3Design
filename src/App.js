@@ -9,6 +9,7 @@ import './components/_variables.scss';
 import NavBar from './components/NavBar';
 import Body from './components/Body';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <NavBar />
       <Body />
       <Contact />
+      <Footer />
     </div>
   );
 }

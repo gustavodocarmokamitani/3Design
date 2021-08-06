@@ -29,7 +29,7 @@ const Contact = () => {
                 <Col lg={6} xs={12}>
                     <img className='Image-Contact px-3' src={image3}></img>
                 </Col>
-            </Row>
+            </Row>        
         </Container>
     );
 }
