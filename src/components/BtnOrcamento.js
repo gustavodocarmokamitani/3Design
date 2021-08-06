@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import "./BtnOrcamento.scss";
 
 const BtnOrcamento = ({children}) => (    
-    <Button className="Btn-Contact">{children}</Button>    
+    <Button className="Btn-Orcamento">{children}</Button>    
 );
 
 export default BtnOrcamento;

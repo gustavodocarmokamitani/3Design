@@ -9,18 +9,18 @@ const CardBody = ({ posts }) => {
         <Row id='Body'>
             {posts &&
                 posts.map(({ id, image, title, content, program, likes }) => (
-                    <Col xs={12} lg={4} key={id}>
+                    <Col xs={6} lg={4} key={id}>
                         <div className='Body-Card'>
-                        <img className='Card-Image' src={image}></img>
+                            <img className='Card-Image' src={image}></img>
                             <div className='Hover-Card'>
                                 <h3 className='Card-Title px-4 mt-2'>{title}</h3>
-                                <p className='Card-Content px-4 mb-2'>{content}</p>                                
-                            </div>
-                            <p className='Programa-Card'>- {program}</p>
-                            <p className='Likes-Card'>{likes} </p> <FontAwesomeIcon className='Heart-Card' icon={faHeart} color="#ff0000" size="1x"></FontAwesomeIcon>                        </div>
+                                <p className='Card-Content px-4 mb-2'>{content}</p>
+                            </div>                                                    
+                            <p className='Programa-Card'> <FontAwesomeIcon className='Heart-Card' icon={faHeart} color="#ff0000" size="1x"></FontAwesomeIcon> <span>{likes}</span> <span>{program}</span></p>
+                        </div>
                     </Col>
                 ))}
-        </Row>        
+        </Row>
     );
 }
 
